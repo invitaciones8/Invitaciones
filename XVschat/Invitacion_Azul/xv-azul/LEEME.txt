@@ -1,0 +1,133 @@
+INVITACIÓN DE XV AÑOS DE AZUL
+
+El archivo index.html contiene el HTML, los estilos, las funciones y la foto
+original de Azul. No necesitas instalar paquetes ni guardar la foto aparte.
+Los arreglos florales ahora son imágenes de aspecto fotográfico, con rosas
+reales en apariencia, hojas naturales y detalles dorados. También están
+integrados en el HTML, con fondo transparente; no debes subirlos por separado.
+Se cargan como imágenes HTML normales. No se utilizan variables CSS gigantes
+para las imágenes. Los arreglos se colocaron más adentro de la pantalla.
+Las tipografías decorativas se cargan de Google Fonts cuando hay internet;
+sin conexión se utilizan las fuentes de respaldo del dispositivo.
+
+ABRIR Y EDITAR
+
+1. Extrae el archivo ZIP en una carpeta nueva llamada xv-azul.
+2. Haz doble clic en index.html para abrir la invitación en tu navegador.
+3. En Visual Studio Code, abre esa carpeta y después index.html.
+4. Al comienzo del código busca: const INVITACION = {
+   Ahí puedes cambiar nombre, fecha, horarios, lugares y opciones.
+5. Guarda con Ctrl + S y actualiza el navegador para ver tus cambios.
+
+SI ESTABAS ABRIENDO UNA VERSIÓN ANTERIOR SIN FLORES
+
+Descarga otra vez el archivo actualizado y reemplaza el anterior.
+Abre index.html directamente con Chrome o Safari. Si lo publicaste en GitHub,
+reemplázalo en tu repositorio y espera a que termine la nueva publicación.
+En computadora puedes recargar con Ctrl + F5. En celular cierra la pestaña
+anterior y abre de nuevo el enlace. Si aún aparece la versión anterior,
+prueba el enlace en una pestaña de incógnito.
+
+DATOS UTILIZADOS
+
+Quinceañera: Azul.
+Fecha: sábado 7 de noviembre de 2026. El año se asumió por la fecha actual.
+Misa: 6:00 p. m., Santuario.
+Recepción: 9:00 p. m., Severuz.
+Dirección: Sierra Santa Catalina #74, Col. Benito Juárez.
+Presentación: 10:00 p. m.
+Comida: 10:30 p. m.
+Vestimenta: formal, conservada del ejemplo.
+Se interpretó "Con. Benito juarez" como "Col. Benito Juárez".
+El rosa queda reservado exclusivamente para la quinceañera.
+Ubicación de la iglesia: https://maps.app.goo.gl/9KwSFufzUbpY21LH8?g_st=aw
+Zona horaria utilizada: America/Mazatlan, UTC-07:00.
+Confirmación de asistencia: +1 520 397 4079.
+
+VISTA PARA CELULAR
+
+En pantallas de hasta 768 px, la invitación se organiza en una sola columna,
+con textos más legibles y botones amplios para tocar. El botón Confirmar
+asistencia permanece accesible en la parte inferior, respetando el espacio
+de la barra de gestos del celular. También aparece una sección de confirmación
+con el número de WhatsApp. Ambos botones abren el mismo chat y preparan un
+mensaje de confirmación; la persona escribe su nombre y lo envía en WhatsApp.
+
+DATOS QUE PUEDES COMPLETAR
+
+ciudad: escribe ciudad y estado entre las comillas.
+mapaIglesia: ya contiene el enlace de Google Maps que proporcionaste.
+mapaSalon: falta el enlace exacto del salón. Pégalo entre las comillas.
+  El botón Cómo llegar del salón aparece automáticamente al agregar su enlace.
+  Mientras está vacío, se muestra la dirección del salón y se puede copiar.
+whatsapp: ya está configurado como "15203974079", con el código de país 1.
+  Los botones Confirmar asistencia abren WhatsApp con un mensaje preparado;
+  cada invitado revisa y envía ese mensaje. No hay una base de datos.
+musica: opcional. Coloca tu MP3 junto al HTML y escribe su nombre, por ejemplo
+  "cancion.mp3". Aparecerá un control para reproducir o pausar la música.
+foto: vacío utiliza la foto original integrada. Para cambiarla, pon la nueva
+  imagen en la misma carpeta y escribe su nombre, por ejemplo "foto.jpg".
+vestimenta: cambia "Formal" si corresponde. Vacío oculta esa sección.
+colorReservado: ya está configurado como "rosa", exclusivo de la quinceañera.
+
+Si el evento no es en una zona con UTC-07:00, ajusta zonaHoraria y desfaseUTC.
+La cuenta regresiva termina a la hora de la misa. El botón de calendario
+descarga un archivo .ics con los cuatro momentos, sin inventar horas de fin.
+
+SUBIR A GITHUB Y OBTENER EL ENLACE
+
+Opción sencilla:
+1. Crea en GitHub un repositorio público llamado xv-azul.
+2. Sube index.html a la raíz del repositorio (no dentro de otra carpeta).
+3. En el repositorio abre Settings > Pages.
+4. En Source elige Deploy from a branch.
+5. Selecciona la rama main y la carpeta / (root). Pulsa Save.
+6. Cuando termine la publicación, GitHub Pages mostrará el enlace del sitio.
+   Comparte ese enlace con los invitados.
+
+Si prefieres hacerlo desde la terminal de Visual Studio Code, crea primero
+un repositorio vacío en GitHub. Desde la carpeta nueva del proyecto ejecuta:
+
+git init
+git add index.html
+git commit -m "Invitacion de XV de Azul"
+git branch -M main
+git remote add origin https://github.com/TU_USUARIO/xv-azul.git
+git push -u origin main
+
+Sustituye TU_USUARIO por tu usuario real. Después configura Pages con los
+pasos 3 a 6. Si ya trabajas en un repositorio existente, usa su configuración.
+
+Guía oficial de GitHub:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+COMPROBACIONES REALIZADAS
+
+Se comprobaron la estructura del HTML, las referencias internas, la sintaxis
+y la lógica de JavaScript, la cuenta regresiva antes y después de la fecha,
+los cuatro horarios del calendario, la copia de la dirección y las opciones
+de mapas y WhatsApp. La foto conserva exactamente los bytes del original.
+No fue posible realizar una revisión visual en un navegador en este entorno.
+Abre index.html para revisar cómo se presenta en tu celular antes de compartir.
+
+RECURSO FLORAL
+
+Creado con la herramienta integrada de generación de imágenes. Prompt usado:
+Use case: photorealistic-natural. Asset type: transparent floral decoration
+for an elegant mobile quinceañera invitation in blush pink and warm gold.
+Create ONE isolated, natural asymmetrical floral spray, photographed as real
+fresh flowers, with three lush blush-pink garden roses in different sizes,
+one small ivory rose, two small pale pink buds, delicate muted sage eucalyptus
+leaves, and a few slender champagne-gold gilded leaves. Real photographic
+petals with fine veins, curled thin petal edges, natural variation, subtle
+translucent petals, soft studio daylight and realistic depth. Composition:
+a graceful narrow diagonal crescent/spray rising from lower left toward
+upper right, suited to framing a portrait corner. Full spray entirely inside
+the image, 8% clear transparent margin on every side, airy spacing between
+outer stems. All flowers and foliage visible, detailed and crisp. True
+transparent alpha background, no surface, no paper, no rectangle, no background
+shadow. This must look like a high-quality professional floral photograph
+cutout, NOT a drawing, NOT watercolor, NOT an illustration, NOT vector art,
+NOT a painting, NOT plastic CGI. No people, no text, no lettering, no numbers,
+no borders, no vases, no ribbons, no butterflies. Vertical image around
+1024 by 1536.

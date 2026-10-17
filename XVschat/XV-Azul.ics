@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Invitacion XV//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:azul-xv-2026-11-07-misa@invitacion.local
+DTSTAMP:20261017T191228Z
+DTSTART:20261108T010000Z
+SUMMARY:XV años de Azul · Misa
+LOCATION:Santuario
+DESCRIPTION:Te espero para celebrar mis XV años. Misa: 6:00 p. m.. Recepci
+ ón: 9:00 p. m.. Presentación: 10:00 p. m.. Comida: 10:30 p. m.. Horarios
+  del lugar del evento.
+END:VEVENT
+BEGIN:VEVENT
+UID:azul-xv-2026-11-07-recepcion@invitacion.local
+DTSTAMP:20261017T191228Z
+DTSTART:20261108T040000Z
+SUMMARY:XV años de Azul · Recepción
+LOCATION:Severuz\, Sierra Santa Catalina #74\, Col. Benito Juárez
+DESCRIPTION:Te espero para celebrar mis XV años. Misa: 6:00 p. m.. Recepci
+ ón: 9:00 p. m.. Presentación: 10:00 p. m.. Comida: 10:30 p. m.. Horarios
+  del lugar del evento.
+END:VEVENT
+BEGIN:VEVENT
+UID:azul-xv-2026-11-07-presentacion@invitacion.local
+DTSTAMP:20261017T191228Z
+DTSTART:20261108T050000Z
+SUMMARY:XV años de Azul · Presentación
+LOCATION:Severuz\, Sierra Santa Catalina #74\, Col. Benito Juárez
+DESCRIPTION:Te espero para celebrar mis XV años. Misa: 6:00 p. m.. Recepci
+ ón: 9:00 p. m.. Presentación: 10:00 p. m.. Comida: 10:30 p. m.. Horarios
+  del lugar del evento.
+END:VEVENT
+BEGIN:VEVENT
+UID:azul-xv-2026-11-07-comida@invitacion.local
+DTSTAMP:20261017T191228Z
+DTSTART:20261108T053000Z
+SUMMARY:XV años de Azul · Comida
+LOCATION:Severuz\, Sierra Santa Catalina #74\, Col. Benito Juárez
+DESCRIPTION:Te espero para celebrar mis XV años. Misa: 6:00 p. m.. Recepci
+ ón: 9:00 p. m.. Presentación: 10:00 p. m.. Comida: 10:30 p. m.. Horarios
+  del lugar del evento.
+END:VEVENT
+END:VCALENDAR
